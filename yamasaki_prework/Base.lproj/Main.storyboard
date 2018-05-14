@@ -240,7 +240,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MOc-Mz-fYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1304.8" y="1463.1184407796104"/>
+            <point key="canvasLocation" x="1305" y="1462"/>
         </scene>
         <!--MainViewController-->
         <scene sceneID="tne-QT-ifu">
@@ -398,7 +398,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1nC-eX-gLU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1304.8" y="-51.724137931034484"/>
+            <point key="canvasLocation" x="2006" y="1463"/>
         </scene>
         <!--Add List View Controller-->
         <scene sceneID="Rbh-FC-ouk">
@@ -559,6 +559,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="MxQ-0o-MOm"/>
-        <segue reference="Cfd-pg-Q6u"/>
+        <segue reference="pWb-dB-dHE"/>
     </inferredMetricsTieBreakers>
 </document>
