@@ -36,12 +36,24 @@ class GalleryViewController: UIViewController, UINavigationControllerDelegate, U
         let imageData = UIImagePNGRepresentation(image)
         fileManager.createFile(atPath: imagePath as String, contents: imageData, attributes: nil)
     }
+    func getImage(imageName:String){
+        let fileManager = FileManager.default
+        let imagePath = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask,
+                                                             true)[0] as NSString).appendingPathComponent(imageName)
+        if fileManager.fileExists(atPath: imagePath) {
+            imageView.image = UIImage(contentsOfFile: imagePath)
+        } else {
+            print("Oh no! No Image!")
+        }
+    }
     @IBAction func saveImage_button(_ sender: Any) {
+        saveImage(imageName: "test.png")
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        getImage(imageName:"test.png")
 
         // Do any additional setup after loading the view.
     }
