@@ -1,5 +1,5 @@
 # Girls Who Code / DePaul University instructor pre-work
-Girls Who Code / DePaul University pre-work for the iOS app development course in Swift for summer 2018. 
+Girls Who Code DePaul University campus instructor pre-work for the iOS app development course for summer 2018. 
 
 ![alt text](/images/header.jpg?raw=true "App Overview 1")
 
